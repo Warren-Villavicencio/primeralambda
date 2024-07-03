@@ -5,7 +5,7 @@ import * as apigw from "aws-cdk-lib/aws-apigateway";
 import * as path from "path";
 
 import { Construct } from "constructs";
-// import * as sqs from 'aws-cdk-lib/aws-sqs';
+// import * as sqs from 'aws-cdk-lib/aws-sqs'l;
 
 export class PrimeralambdaStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
