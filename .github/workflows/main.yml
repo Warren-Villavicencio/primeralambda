@@ -2,7 +2,7 @@ name: Deploy Application
 
 on:
   push:
-    branches: [ master ]  # Change to your desired branch
+    branches: [ main]  # Change to your desired branch
 
 jobs:
   deploy:
@@ -16,6 +16,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          node-version: '20'   
+        
+
 
       - name: Create AWS credentials file
         run: |
