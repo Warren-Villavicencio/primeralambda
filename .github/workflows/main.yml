@@ -2,7 +2,7 @@ name: Deploy Application
 
 on:
   push:
-    branches: [ master ]  # Change to your desired branch
+    branches: [ main]  # Change to your desired branch
 
 jobs:
   deploy:
